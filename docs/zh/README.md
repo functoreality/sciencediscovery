@@ -4,23 +4,23 @@
 
 这是 ScienceDiscovery 的完整中文文档集。
 
-## 快速开始
+## [快速开始](getting-started/README.md)
 
 - [快速开始](getting-started/quick-start.md) — 按[仓库 README](../../README_zh.md#安装)完成安装后，启动服务、配置模型并完成第一次任务。
 - [部署](getting-started/deployment.md) — 预编译二进制不适合你的主机或工作流时，用其他方式安装与运行：源码构建的单文件二进制、本地源码模式，或 Docker。
 
-## 核心能力
+## [核心能力](core/README.md)
 
 - [程序演进](core/evolve.md) — 理解搜索、打分模式、引擎、数据切分和结果可信度。
 - [Shell、环境与 Workspace](core/execution-workspaces.md) — 理解执行、文件、环境、完成与停止行为。
 - [Idea Tree](core/idea-tree.md) — 理解自主研究引擎的使用方式、状态和边界。
 
-## 领域指南
+## [领域指南](domains/README.md)
 
 - [演进出一个更优解](domains/evolve-a-solution.md) — 完整跑一次程序演进搜索，并判断改进是不是真的。
 - [文献调研](domains/literature-research.md) — 以跨数据库文献调研为例，演示从启动服务、配置系统到审批与查看结果的全流程。
 
-## How-to（操作指南）
+## [How-to（操作指南）](how-to/README.md)
 
 ### 连接与配置
 
@@ -33,8 +33,11 @@
 - [运行一次演进搜索](how-to/run-an-evolution-search.md) — 提出 `/evolve-design` 搜索、定分片规模、看过程，并读留出结果。
 - [在 JiuwenSwarm 上运行 agent](how-to/run-with-jiuwenswarm.md) — 可选的实验性执行器：安装固定版本的 JiuwenSwarm、带 adapter 启动服务，并了解预期行为。
 
-## Reference（参考）
+## [Reference（参考）](reference/README.md)
 
+- [安全与信任边界](reference/security-and-trust.md) — 了解单用户边界、默认暴露方式和沙箱范围。
+- [排障与常见问题](reference/troubleshooting.md) — 处理模型、权限、连接器、代理、超时和数据位置问题。
+- [术语表](reference/glossary.md) — 查询常见产品术语。
 - [配置、端口与存储](reference/configuration.md) — 环境变量、默认端口、上传/工作区/输出配额和数据布局。
 - [REST API](reference/rest-api.md) — 当前 UI 使用的内部 HTTP 接口、认证、请求/响应与错误语义。
 - [运行时行为](reference/runtime-behavior.md) — 模型、设置继承、技能、权限、超时和执行限制。

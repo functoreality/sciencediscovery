@@ -4,22 +4,22 @@
 
 This is the complete English documentation set.
 
-## Getting started
+## [Getting started](getting-started/README.md)
 
 - [Quick start](getting-started/quick-start.md) — after you install ScienceDiscovery from the [repository README](../../README.md#installation), start the service, configure a model, and complete a first task.
 - [Deployment](getting-started/deployment.md) — other ways to install and run ScienceDiscovery when the prebuilt binary does not suit your host or workflow: a source-built single-file binary, local source mode, or Docker.
 
-## Core capabilities
+## [Core capabilities](core/README.md)
 
 - [Program evolution](core/evolve.md) — understand searches, scoring modes, engines, data splits, and result trustworthiness.
 - [Shell, environments, and workspaces](core/execution-workspaces.md) — understand execution, files, environments, completion, and stopping.
 
-## Domain guides
+## [Domain guides](domains/README.md)
 
 - [Evolve a solution](domains/evolve-a-solution.md) — run a program-evolution search end to end and judge whether the improvement is real.
 - [Literature research](domains/literature-research.md) — run an end-to-end cross-database literature survey, from service startup to approvals and results.
 
-## How-to guides
+## [How-to guides](how-to/README.md)
 
 ### Connect and configure
 
@@ -32,8 +32,11 @@ This is the complete English documentation set.
 - [Run an evolution search](how-to/run-an-evolution-search.md) — propose a `/evolve-design` search, size its shards, watch it run, and read the held-out result.
 - [Run agent turns on JiuwenSwarm](how-to/run-with-jiuwenswarm.md) — optional, experimental executor: install a pinned JiuwenSwarm, start the stack with the adapter, and understand the expected behavior.
 
-## Reference
+## [Reference](reference/README.md)
 
+- [Security and trust](reference/security-and-trust.md) — understand the single-user boundary, default exposure, and sandbox scope.
+- [Troubleshooting and FAQ](reference/troubleshooting.md) — recover from model, permission, connector, proxy, timeout, and data-location problems.
+- [Glossary](reference/glossary.md) — look up common product terms.
 - [Configuration](reference/configuration.md) — environment variables, default ports, upload/workspace/output quotas, and data layout.
 - [REST API](reference/rest-api.md) — internal HTTP API used by the UI: authentication, request/response, and error semantics.
 - [Runtime behavior and limits](reference/runtime-behavior.md) — models, settings inheritance, skills, permissions, timeouts, and execution limits.
